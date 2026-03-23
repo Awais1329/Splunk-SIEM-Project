@@ -52,9 +52,9 @@ Things I Learned Along the Way:
 
 Getting the forwarder to actually connect was the trickiest part. The server needs to have receiving explicitly enabled on port 9997 — it doesn't happen automatically just by installing Splunk. I also had to make sure that port wasn't being blocked by a firewall before the connection would go through. Once that was sorted, logs started appearing almost immediately, which was a satisfying moment.
 
-For the full setup guide, go to \[SETUP.md](./SETUP.md).  
+For the full setup guide, go to  [View Setup](./configs/setup.md).  
 
-For the search queries, go to \[queries.md](./queries.md).  
+For the search queries, go to [View Queries](./queries/detections.spl)
 
-For screenshots, check the \[screenshots/](./screenshots/) folder.
+For screenshots, check the [View Screenshots](./screenshots/).
 
