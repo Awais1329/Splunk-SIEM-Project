@@ -1,4 +1,4 @@
-### Splunk Log Monitoring — Server \& Forwarder Setup
+### Splunk Log Monitoring (Server \& Forwarder Setup)
 
 I built this project to get hands-on experience with centralized log management. The idea was simple: set up a Splunk server on one machine and then configure a second machine to forward its logs to that server in real time. What sounds straightforward on paper involves quite a few moving parts — ports, configurations, receiver settings — so I documented everything here so anyone can follow along or reproduce it from scratch.
 
