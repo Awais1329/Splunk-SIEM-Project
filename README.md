@@ -2,7 +2,7 @@
 
 I built this project to get hands-on experience with centralized log management. The idea was simple: set up a Splunk server on one machine and then configure a second machine to forward its logs to that server in real time. What sounds straightforward on paper involves quite a few moving parts — ports, configurations, receiver settings — so I documented everything here so anyone can follow along or reproduce it from scratch.
 
-##Objective:
+###Objective:
 
 Most systems generate logs constantly — login attempts, service errors, network activity, application events. The problem is those logs are stuck on whichever machine produced them. Splunk solves this by pulling all those logs into one place where you can search, filter, and build reports across everything at once.
 
